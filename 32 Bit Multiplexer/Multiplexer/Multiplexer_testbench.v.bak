@@ -1,0 +1,9 @@
+module Multiplexer_testbench;
+
+
+
+	Multiplexer DUT(select, I, O, enable);
+	
+	
+	
+endmodule

@@ -1,0 +1,26 @@
+module MultiplexerTest(select, O, enable, I0, I1, I2, I3, I4, I5, I6, I7,
+												  I8, I9, I10, I11, I12, I13, I14, I15, 
+												  I16, I17, I18, I19, I20, I21, I22, I23, 
+												  I24, I25, I26, I27, I28, I29, I30, I31);
+
+	input [4:0] select;
+	input [31:0] I0, I1, I2, I3, I4, I5, I6, I7,
+					 I8, I9, I10, I11, I12, I13, I14, I15, 
+					 I16, I17, I18, I19, I20, I21, I22, I23, 
+					 I24, I25, I26, I27, I28, I29, I30, I31;
+	input enable;
+	output [31:0] O;
+	
+	reg [31:0] O;
+	
+	always @(*) begin
+		if(select == 5'b00000)
+			O = I0;
+		else if(select == 5'b00001)
+			O = I1;
+		else if(select == 5'b00010)
+			O = I2;
+	end
+			
+	
+endmodule

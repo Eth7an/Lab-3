@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/Multiplexer/simulation/modelsim
+vMultiplexer
+!s110 1649468431
+!i10b 1
+!s100 kQ_E@g:ZINRX@A4oI>Q:30
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8:S3^RYl[6XI3R@6PTNI?0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1649468399
+8C:/intelFPGA_lite/Multiplexer/Multiplexer.v
+FC:/intelFPGA_lite/Multiplexer/Multiplexer.v
+!i122 0
+L0 1 56
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1649468431.000000
+!s107 C:/intelFPGA_lite/Multiplexer/Multiplexer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Multiplexer|C:/intelFPGA_lite/Multiplexer/Multiplexer.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/Multiplexer
+Z7 tCvgOpt 0
+n@multiplexer
+vMultiplexer_testbench
+!s110 1649468432
+!i10b 1
+!s100 lL4?i1hn9S4zmP6Vi^fXg3
+R1
+Ikl9hgfE=?BWWIb:jo8<@;0
+R2
+R0
+w1649468120
+8C:/intelFPGA_lite/Multiplexer/Multiplexer_testbench.v
+FC:/intelFPGA_lite/Multiplexer/Multiplexer_testbench.v
+!i122 1
+L0 1 61
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/Multiplexer/Multiplexer_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Multiplexer|C:/intelFPGA_lite/Multiplexer/Multiplexer_testbench.v|
+!i113 1
+R5
+R6
+R7
+n@multiplexer_testbench
