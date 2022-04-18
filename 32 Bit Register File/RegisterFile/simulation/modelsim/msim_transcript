@@ -1,0 +1,84 @@
+# Reading pref.tcl
+# do RegisterFile_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/RegisterFile {C:/intelFPGA_lite/RegisterFile/RegisterFile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:53:14 on Apr 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/RegisterFile" C:/intelFPGA_lite/RegisterFile/RegisterFile.v 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 21:53:14 on Apr 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/RegisterFile {C:/intelFPGA_lite/RegisterFile/Decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:53:14 on Apr 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/RegisterFile" C:/intelFPGA_lite/RegisterFile/Decoder.v 
+# -- Compiling module Decoder
+# 
+# Top level modules:
+# 	Decoder
+# End time: 21:53:14 on Apr 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/RegisterFile {C:/intelFPGA_lite/RegisterFile/Multiplexer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:53:14 on Apr 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/RegisterFile" C:/intelFPGA_lite/RegisterFile/Multiplexer.v 
+# -- Compiling module Multiplexer
+# 
+# Top level modules:
+# 	Multiplexer
+# End time: 21:53:14 on Apr 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/RegisterFile {C:/intelFPGA_lite/RegisterFile/Register.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:53:14 on Apr 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/RegisterFile" C:/intelFPGA_lite/RegisterFile/Register.v 
+# -- Compiling module Register
+# 
+# Top level modules:
+# 	Register
+# End time: 21:53:14 on Apr 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/RegisterFile {C:/intelFPGA_lite/RegisterFile/RegisterFile_testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:53:15 on Apr 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/RegisterFile" C:/intelFPGA_lite/RegisterFile/RegisterFile_testbench.v 
+# -- Compiling module RegisterFile_testbench
+# 
+# Top level modules:
+# 	RegisterFile_testbench
+# End time: 21:53:15 on Apr 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  RegisterFile_testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" RegisterFile_testbench 
+# Start time: 21:53:15 on Apr 10,2022
+# Loading work.RegisterFile_testbench
+# Loading work.RegisterFile
+# Loading work.Decoder
+# Loading work.Multiplexer
+# Loading work.Register
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/intelFPGA_lite/RegisterFile/RegisterFile_testbench.v(29)
+#    Time: 60 ps  Iteration: 0  Instance: /RegisterFile_testbench
+# Break in Module RegisterFile_testbench at C:/intelFPGA_lite/RegisterFile/RegisterFile_testbench.v line 29
+# End time: 12:57:09 on Apr 12,2022, Elapsed time: 39:03:54
+# Errors: 0, Warnings: 0
