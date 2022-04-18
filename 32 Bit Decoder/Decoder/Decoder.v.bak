@@ -1,0 +1,7 @@
+module Decoder(I, O, enable);
+
+	reg [4:0] I;
+	reg [31:0] O;
+	reg enable;
+	
+	
