@@ -1,0 +1,51 @@
+# Reading pref.tcl
+# do Decoder_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Decoder {C:/intelFPGA_lite/Decoder/Decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:06:10 on Apr 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Decoder" C:/intelFPGA_lite/Decoder/Decoder.v 
+# -- Compiling module Decoder
+# 
+# Top level modules:
+# 	Decoder
+# End time: 21:06:10 on Apr 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Decoder {C:/intelFPGA_lite/Decoder/Decoder_testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:06:10 on Apr 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Decoder" C:/intelFPGA_lite/Decoder/Decoder_testbench.v 
+# -- Compiling module Decoder_testbench
+# 
+# Top level modules:
+# 	Decoder_testbench
+# End time: 21:06:10 on Apr 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  Decoder_testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" Decoder_testbench 
+# Start time: 21:06:10 on Apr 08,2022
+# Loading work.Decoder_testbench
+# Loading work.Decoder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/intelFPGA_lite/Decoder/Decoder_testbench.v(20)
+#    Time: 350 ps  Iteration: 0  Instance: /Decoder_testbench
+# Break in Module Decoder_testbench at C:/intelFPGA_lite/Decoder/Decoder_testbench.v line 20
+# End time: 21:07:18 on Apr 08,2022, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 0
